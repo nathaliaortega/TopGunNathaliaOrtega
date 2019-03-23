@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100" >
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+	<link
+	rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+	integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+	crossorigin="anonymous"
+  />
+	<title>Hello!</title>
+</head>
+<body class="h-100" >
+	<div class="container-fluid  h-100">
+		<div class="row h-100" >
+			<div class="col-12 col-sm d-sm-flex justify-content-center align-items-center flex-column iam-side h-100" id="Divright" >
+				<section class="navbar-light navbar-expand-sm">
+
+					<div class="main-title main-title d-flex d-sm-block justify-content-between flex-wrap align-items-center">				
+						<figure>
+							<img id="imgPersonal" src="img/newyear2.jpg" alt="Nathalia Ortega Foto" class="rounded-circle" width="130">
+							<figcaption>
+								<h1 class="display-4">Hi there! </h1>
+								<h3 id="title">I'm Nathalia</h1>					
+							</figcaption>
+						</figure>
+					</div>
+					<nav class="">
+						<div class="nav navbar-collapse collapse flex-column main-navbar align-items-start" role="tablist">
+							<a class="nav-item nav-link active navA" data-toggle="tab" href="#aboutMe" role="tab" aria-controls="aboutMe" aria-selected="true">About Me</a>
+							<a class="nav-item nav-link navA"  data-toggle="tab" href="#moreAboutMe" role="tab" aria-controls="moreAboutMe" aria-selected="false">More About Me</a>
+							<a class="nav-item nav-link navA"  data-toggle="tab" href="#watch" role="tab" aria-controls="watch" aria-selected="false">You must watch...</a>
+							<a class="nav-item nav-link navA"  data-toggle="tab" href="#favSong" role="tab" aria-controls="favSong" aria-selected="false">A Song that i really love</a>
+							<a class="nav-item nav-link navA"  data-toggle="tab" href="#topSongs" role="tab" aria-controls="topSongs" aria-selected="false">Thop 5 songs</a>
+							<a class="nav-item nav-link navA"  data-toggle="tab" href="#food" role="tab" aria-controls="food" aria-selected="false">Top 6 foods</a>
+						</div>
+					</nav>
+				</section>
+			</div>
+		
+			<main class="col-sm-8 tab-content d-flex align-items-center">
+				<article class="tab-pane fade show active mx-auto" id="aboutMe" role="tabpanel" aria-labelledby="aboutMe-tab" >
+					<h2>About Me</h2>
+					<br>
+					<p class='text'>
+						I'm from Medellin, i'm studying Systems engineering, i always try 
+						to improve myself. My dream is that some day i can change the world even if 
+						it's only doing little things every day. I enjoy to read, to help people
+						around, to be calm and chill, to be informed of topics that i'm interested 
+						in, to meditate and to learn and understand new things. I love my family,
+						friends and bae.
+					</p>
+				</article>
+				<article class="tab-pane fade mx-auto" id="moreAboutMe" role="tabpanel" aria-labelledby="moreAboutMe-tab">
+					<h2>More About Me</h2>
+					<br>
+					<ul class='text'><li>I'm still dreaming and asking myself about the world like i was a child (and i love it).</li>
+						<li>I have no other way to dance but "dance like no one is watching", have no rhythm.</li>
+						<li>Love converse so much that almost 80% of my shoes are sneakers.</li>
+						<li>I'm very shy at the beginning, but even then, i consider myself kind and friendly.</li>
+						<li>Not able to support prepotency and humiliating people.</li>
+						<li>I like to talk to nice people, meet them, learn more about them and learn things for my life in the process.</li>
+					</ul>
+				</article>
+				<article class="tab-pane fade mx-auto" id="watch" role="tabpanel" aria-labelledby="watch-tab">
+					<h2>You must watch...</h2>
+					<br>
+					<ul class='text'>
+						<li>Game of thrones - the hbo serie</li>
+						<li>Sherlock - the bbc serie</li>
+						<li>Your name - the movie</li>
+						<li>The princess diaries - both movies</li>
+						<li>Yo soy, Betty la fea - colombian version</li>
+					</ul>
+				</article>
+				<article class="tab-pane fade mx-auto" id="favSong" role="tabpanel" aria-labelledby="favSong-tab">
+					<h2>A Song that i really love (at the moment)</h2>
+					<br>
+					<p class='text'>Ain't got far to go 
+					<br>by Jess Glynne</p>
+				</article>
+				<article class="tab-pane fade mx-auto" id="topSongs" role="tabpanel" aria-labelledby="topSongs-tab">
+					<h2>Top 5 of the coolest songs in the seven kingdoms</h2>
+					<br>
+					<ul class="nav nav-pills mb-3 text" id="pills-tab" role="tablist" >
+						<li class="nav-item"><a class="nav-link active" id="pills-firstSong-tab" data-toggle="pill" href="#pills-firstSong" role="tab" aria-controls="pills-firstSong" aria-selected="true">Sunday morning</a></li>
+						<li class="nav-item"><a class="nav-link" id="pills-secondSong-tab" data-toggle="pill" href="#pills-secondSong" role="tab" aria-controls="pills-secondSong" aria-selected="false">Miss Atomic Bomb</a></li>
+						<li class="nav-item"><a class="nav-link" id="pills-thirdSong-tab" data-toggle="pill" href="#pills-thirdSong" role="tab" aria-controls="pills-thirdSong" aria-selected="false">Unwritten</a></li>
+						<li class="nav-item"><a class="nav-link" id="pills-fourthSong-tab" data-toggle="pill" href="#pills-fourthSong" role="tab" aria-controls="pills-fourthSong" aria-selected="false">Call It What You Want</a></li>
+						<li class="nav-item"><a class="nav-link" id="pills-fifthSong-tab" data-toggle="pill" href="#pills-fifthSong" role="tab" aria-controls="pills-fifthSong" aria-selected="false">Sabor A Mi</a></li>
+					</ul>
+				</article>
+				<article class="tab-pane fade mx-auto" id="food" role="tabpanel" aria-labelledby="food-tab">
+					<h2>Top 6 of delicious food</h2>
+					<br>
+					<ul class='text'>
+						<li>Soups</li>
+						<li>Potato  fries</li>
+						<li>Lasagna/pizza</li>
+						<li>Berries cheesecake/caramel flan</li>
+						<li>Hot dogs ('los perritos')</li>
+						<li>watermelon/bittersweet gummies</li>
+					</ul>
+				</article>
+			</main>
+		
+	</div>
+	<script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script type="module" src="scripts/main.js"></script>
+</body>
+</html>

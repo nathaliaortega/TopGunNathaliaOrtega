@@ -1,0 +1,41 @@
+
+#Divright
+{
+    background-color: #807182;
+    color:white;   
+}
+
+#title{
+    padding-bottom: 5%;
+    border-bottom:solid 2px #FFA07A;
+}
+
+.navA
+{
+    color:white;
+    text-decoration:none;
+}
+#imgPersonal
+{
+    margin-left:10%;
+}
+a:hover
+{
+    background-color:#E9967A;
+    text-decoration-color: white;
+}
+.navA:visited { 
+    color: white;
+}
+
+article
+{
+    color:#7E007B;
+    font-weight: bold;
+}
+
+.text
+{
+    color:black;
+    font-weight: normal;
+}
