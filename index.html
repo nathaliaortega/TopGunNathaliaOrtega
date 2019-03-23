@@ -8,9 +8,8 @@
 	<!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
 	<link
 	rel="stylesheet"
-	href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-	integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-	crossorigin="anonymous"
+	href="css/bootstrap.css"
+	type="text/css"
   />
 	<title>Hello!</title>
 </head>
@@ -87,12 +86,19 @@
 					<h2>Top 5 of the coolest songs in the seven kingdoms</h2>
 					<br>
 					<ul class="nav nav-pills mb-3 text" id="pills-tab" role="tablist" >
-						<li class="nav-item"><a class="nav-link active" id="pills-firstSong-tab" data-toggle="pill" href="#pills-firstSong" role="tab" aria-controls="pills-firstSong" aria-selected="true">Sunday morning</a></li>
-						<li class="nav-item"><a class="nav-link" id="pills-secondSong-tab" data-toggle="pill" href="#pills-secondSong" role="tab" aria-controls="pills-secondSong" aria-selected="false">Miss Atomic Bomb</a></li>
-						<li class="nav-item"><a class="nav-link" id="pills-thirdSong-tab" data-toggle="pill" href="#pills-thirdSong" role="tab" aria-controls="pills-thirdSong" aria-selected="false">Unwritten</a></li>
-						<li class="nav-item"><a class="nav-link" id="pills-fourthSong-tab" data-toggle="pill" href="#pills-fourthSong" role="tab" aria-controls="pills-fourthSong" aria-selected="false">Call It What You Want</a></li>
-						<li class="nav-item"><a class="nav-link" id="pills-fifthSong-tab" data-toggle="pill" href="#pills-fifthSong" role="tab" aria-controls="pills-fifthSong" aria-selected="false">Sabor A Mi</a></li>
+						<li class="nav-item"><a class="nav-link active songs" id="pills-firstSong-tab" data-toggle="pill" href="#pills-firstSong" role="tab" aria-controls="pills-firstSong" aria-selected="true">Sunday morning</a></li>
+						<li class="nav-item"><a class="nav-link songs" id="pills-secondSong-tab" data-toggle="pill" href="#pills-secondSong" role="tab" aria-controls="pills-secondSong" aria-selected="false">Miss Atomic Bomb</a></li>
+						<li class="nav-item"><a class="nav-link songs" id="pills-thirdSong-tab" data-toggle="pill" href="#pills-thirdSong" role="tab" aria-controls="pills-thirdSong" aria-selected="false">Unwritten</a></li>
+						<li class="nav-item"><a class="nav-link songs" id="pills-fourthSong-tab" data-toggle="pill" href="#pills-fourthSong" role="tab" aria-controls="pills-fourthSong" aria-selected="false">Call It What You Want</a></li>
+						<li class="nav-item"><a class="nav-link songs" id="pills-fifthSong-tab" data-toggle="pill" href="#pills-fifthSong" role="tab" aria-controls="pills-fifthSong" aria-selected="false">Sabor A Mi</a></li>
 					</ul>
+					<div class="tab-content" id="pills-tabContent">
+						<div class="tab-pane fade show active" id="pills-firstSong" role="tabpanel" aria-labelledby="pills-firstSong"><iframe width="50%" height="100%" src="http://www.youtube.com/embed/S2Cti12XBw4" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+						<div class="tab-pane fade" id="pills-secondSong" role="tabpanel" aria-labelledby="pills-secondSong">...</div>
+						<div class="tab-pane fade" id="pills-thirdSong" role="tabpanel" aria-labelledby="pills-thirdSong">...</div>
+						<div class="tab-pane fade" id="pills-fourthSong" role="tabpanel" aria-labelledby="pills-fourthSong">...</div>
+						<div class="tab-pane fade" id="pills-fifthSong" role="tabpanel" aria-labelledby="pills-fifthSong">...</div>
+					</div>
 				</article>
 				<article class="tab-pane fade mx-auto" id="food" role="tabpanel" aria-labelledby="food-tab">
 					<h2>Top 6 of delicious food</h2>

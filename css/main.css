@@ -14,6 +14,7 @@
 {
     color:white;
     text-decoration:none;
+    border-radius: 5%;
 }
 #imgPersonal
 {
@@ -22,12 +23,14 @@
 a:hover
 {
     background-color:#E9967A;
-    text-decoration-color: white;
-}
-.navA:visited { 
-    color: white;
+    color: white !important;
 }
 
+.a.active
+{
+    background-color:#E9967A !important;
+    color: white !important;
+}
 article
 {
     color:#7E007B;
@@ -38,4 +41,7 @@ article
 {
     color:black;
     font-weight: normal;
+}
+.songs{
+    color:black;
 }
