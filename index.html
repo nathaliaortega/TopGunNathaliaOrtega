@@ -69,13 +69,16 @@
 				<article class="tab-pane fade mx-auto" id="watch" role="tabpanel" aria-labelledby="watch-tab">
 					<h2>You must watch...</h2>
 					<br>
-					<ul class='text'>
+					<ul class='text' id="RecommendationsList">
 						<li>Game of thrones - the hbo serie</li>
 						<li>Sherlock - the bbc serie</li>
 						<li>Your name - the movie</li>
 						<li>The princess diaries - both movies</li>
 						<li>Yo soy, Betty la fea - colombian version</li>
 					</ul>
+					<label for="ideas">Recommendations?</label>
+					<input type="text" class="form-control" id="ideas" aria-describedby="recommendations to watch">	
+					<button  id="btnRecommend" class="btn btn-warning">Recommend</button>
 				</article>
 				<article class="tab-pane fade mx-auto" id="favSong" role="tabpanel" aria-labelledby="favSong-tab">
 					<h2>A Song that i really love (at the moment)</h2>
@@ -87,12 +90,19 @@
 					<h2>Top 5 of the coolest songs in the seven kingdoms</h2>
 					<br>
 					<ul class="nav nav-pills mb-3 text" id="pills-tab" role="tablist" >
-						<li class="nav-item"><a class="nav-link songs" id="pills-firstSong-tab" data-toggle="pill" href="#pills-firstSong" role="tab" aria-controls="pills-firstSong" aria-selected="false">Sunday morning</a></li>
-						<li class="nav-item"><a class="nav-link songs" id="pills-secondSong-tab" data-toggle="pill" href="#pills-secondSong" role="tab" aria-controls="pills-secondSong" aria-selected="false">Miss Atomic Bomb</a></li>
-						<li class="nav-item"><a class="nav-link songs" id="pills-thirdSong-tab" data-toggle="pill" href="#pills-thirdSong" role="tab" aria-controls="pills-thirdSong" aria-selected="false">Unwritten</a></li>
-						<li class="nav-item"><a class="nav-link songs" id="pills-fourthSong-tab" data-toggle="pill" href="#pills-fourthSong" role="tab" aria-controls="pills-fourthSong" aria-selected="false">Call It What You Want</a></li>
-						<li class="nav-item"><a class="nav-link songs" id="pills-fifthSong-tab" data-toggle="pill" href="#pills-fifthSong" role="tab" aria-controls="pills-fifthSong" aria-selected="false">Sabor A Mi</a></li>
-					</ul>
+							<li class="nav-item"><a class="nav-link active songs" id="pills-firstSong-tab" data-toggle="pill" href="#pills-firstSong" role="tab" aria-controls="pills-firstSong" aria-selected="true">Sunday morning</a></li>
+							<li class="nav-item"><a class="nav-link songs" id="pills-secondSong-tab" data-toggle="pill" href="#pills-secondSong" role="tab" aria-controls="pills-secondSong" aria-selected="false">Miss Atomic Bomb</a></li>
+							<li class="nav-item"><a class="nav-link songs" id="pills-thirdSong-tab" data-toggle="pill" href="#pills-thirdSong" role="tab" aria-controls="pills-thirdSong" aria-selected="false">Unwritten</a></li>
+							<li class="nav-item"><a class="nav-link songs" id="pills-fourthSong-tab" data-toggle="pill" href="#pills-fourthSong" role="tab" aria-controls="pills-fourthSong" aria-selected="false">Call It What You Want</a></li>
+							<li class="nav-item"><a class="nav-link songs" id="pills-fifthSong-tab" data-toggle="pill" href="#pills-fifthSong" role="tab" aria-controls="pills-fifthSong" aria-selected="false">Sabor A Mi</a></li>
+						</ul>
+						<div class="tab-content" id="pills-tabContent">
+							<div class="tab-pane fade show active" id="pills-firstSong" role="tabpanel" aria-labelledby="pills-firstSong"><iframe width="50%" height="100%" src="http://www.youtube.com/embed/S2Cti12XBw4" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+							<div class="tab-pane fade" id="pills-secondSong" role="tabpanel" aria-labelledby="pills-secondSong"><iframe width="50%" height="100%" src="https://www.youtube.com/embed/Qok9Ialei4c" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+							<div class="tab-pane fade" id="pills-thirdSong" role="tabpanel" aria-labelledby="pills-thirdSong"><iframe width="50%" height="100%" src="http://www.youtube.com/embed/b7k0a5hYnSI" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+							<div class="tab-pane fade" id="pills-fourthSong" role="tabpanel" aria-labelledby="pills-fourthSong"><iframe width="50%" height="100%" src="http://www.youtube.com/embed/V54CEElTF_U" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+							<div class="tab-pane fade" id="pills-fifthSong" role="tabpanel" aria-labelledby="pills-fifthSong"><iframe width="50%" height="100%" src="http://www.youtube.com/embed/1TcsS4e09yk" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+						</div>
 					
 				</article>
 				<article class="tab-pane fade mx-auto" id="food" role="tabpanel" aria-labelledby="food-tab">
@@ -125,6 +135,7 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
-    <script type="module" src="scripts/main.js"></script>
+		<script type="module" src="scripts/main.js"></script>
+		<script src="js/main.js"></script>
 </body>
 </html>
